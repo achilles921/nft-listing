@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from 'react'
-import web3 from 'Web3'
+import web3 from 'web3'
 import axios from 'axios'
 import { Alchemy, Network } from 'alchemy-sdk'
 
