@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bar{
+  margin:0 auto;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  width: 320px;
+}
+@media (min-width: 992px) {
+  .bar {
+    width: 575px;  
+  }
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.searchbar{
+  height:45px;
+  border:none;
+  width:Calc(100% - 75px);
+  font-size:16px;
+  outline: none; 
+}
+
+.nft-card img {
+  width: 100%;
+}
+
+.modal-details img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
